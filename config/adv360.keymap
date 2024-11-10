@@ -42,7 +42,7 @@
             bindings = <
  &kp EQUAL        &kp N1    &kp N2    &kp N3     &kp N4  &kp N5            &bootloader                                                                    &bootloader  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
    &kp TAB         &kp Q     &kp W     &kp E      &kp R   &kp T                  &none                                                                          &mo 3   &kp Y   &kp U      &kp I     &kp O     &kp P   &kp BSLH
-   &kp ESC         &kp A     &kp S     &kp D      &kp F   &kp G             &kp DELETE     &mo 1     &kp LCTRL                       &kp LGUI  &kp RCTRL        &none   &kp H   &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
+   &kp ESC         &kp A     &kp S     &kp D      &kp F   &kp G             &kp DELETE     &mo 1     &kp LCTRL                       &kp LGUI  &kp RCTRL        &mo 5   &kp H   &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
  &kp LSHFT         &kp Z     &kp X     &kp C      &kp V   &kp B                                   &kp LEFT_ALT                  &kp RIGHT_ALT                           &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
  &kp LCTRL  &kp LEFT_ALT  &kp CAPS  &kp LEFT  &kp RIGHT                       &kp BSPC  &kp LGUI         &mo 4                       &kp RCMD  &kp ENTER    &kp SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 2
             >;
@@ -85,6 +85,16 @@
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL  &kp SEMICOLON  &kp DOUBLE_QUOTES
  &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                        &kp PIPE      &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp GRAVE         &trans             &trans
  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                                &trans                 &trans     &trans         &trans             &trans
+            >;
+        };
+
+        layer_textorcist {
+            bindings = <
+ &trans  &trans    &trans    &trans     &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans    &trans    &kp UP     &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans    &trans    &trans     &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans    &trans    &trans     &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
