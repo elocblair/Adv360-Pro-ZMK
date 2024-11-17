@@ -1,3 +1,9 @@
+macro_next_workspace: macro_next_workspace{
+compatible = "zmk,behavior-macro";
+label = "macro_next_workspace";
+#binding-cells = <0>;
+bindings = <&sk LALT>, <&kp S>;
+};
 macro_dw: macro_dw{
 compatible = "zmk,behavior-macro";
 label = "macro_dw";
